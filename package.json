@@ -1,5 +1,5 @@
 {
-  "name": "@adbs1/trapnz-redux-offline",
+  "name": "trapnz-redux-offline",
   "version": "3.0.2",
   "description": "Redux Offline-First Architecture",
   "main": "lib/index.js",
