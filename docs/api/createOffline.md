@@ -4,8 +4,8 @@ Advanced entrypoint to Redux Offline: returns a middleware, reducer enhancer, an
 
 ```js
 import { applyMiddleware, compose, createStore } from 'redux';
-import { createOffline } from '@redux-offline/redux-offline';
-import config from '@redux-offline/redux-offline/lib/defaults';
+import { createOffline } from '@adbs1/trapnz-redux-offline';
+import config from '@adbs1/trapnz-redux-offline/lib/defaults';
 
 const { middleware, enhanceReducer, enhanceStore } = createOffline(config);
 const store = createStore(

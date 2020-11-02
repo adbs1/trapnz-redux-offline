@@ -9,15 +9,15 @@ Making offline-friendly apps is not rocket science, but to make them work well i
 #### Install
 
 ```
-npm install --save @redux-offline/redux-offline
+npm install --save @adbs1/trapnz-redux-offline
 ```
 
 #### Add the store enhancer
 
 ```js
 import { createStore } from 'redux';
-import { offline } from '@redux-offline/redux-offline';
-import offlineConfig from '@redux-offline/redux-offline/lib/defaults';
+import { offline } from '@adbs1/trapnz-redux-offline';
+import offlineConfig from '@adbs1/trapnz-redux-offline/lib/defaults';
 
 const store = createStore(reducer, offline(offlineConfig));
 ```

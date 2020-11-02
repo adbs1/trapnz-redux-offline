@@ -160,7 +160,7 @@ Configure how offline actions are stored, accessed, and discarded.
 Save an offline action when it is first dispatched.
 
 ```js
-import defaultQueue from '@redux-offline/redux-offline/lib/defaults/queue';
+import defaultQueue from '@adbs1/trapnz-redux-offline/lib/defaults/queue';
 
 const getMethod = action => action.meta.offline.effect.method || "GET";
 const getUrl = action => action.meta.offline.effect.url;

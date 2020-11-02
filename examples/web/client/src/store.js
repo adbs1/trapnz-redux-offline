@@ -1,6 +1,6 @@
 import { applyMiddleware, compose, createStore } from 'redux';
-import { offline, createOffline } from '@redux-offline/redux-offline';
-import defaultConfig from '@redux-offline/redux-offline/lib/defaults';
+import { offline, createOffline } from '@adbs1/trapnz-redux-offline';
+import defaultConfig from '@adbs1/trapnz-redux-offline/lib/defaults';
 
 const initialState = {
   timer: 0

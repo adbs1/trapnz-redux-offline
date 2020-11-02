@@ -1,15 +1,16 @@
-declare module '@redux-offline/redux-offline/lib/defaults' {
-  import { Config } from '@redux-offline/redux-offline/lib/types';
+declare module '@adbs1/trapnz-redux-offline/lib/defaults' {
+  import { Config } from '@adbs1/trapnz-redux-offline/lib/types';
 
   const config: Config;
   export default config;
 }
 
-declare module '@redux-offline/redux-offline/lib/types' {
+declare module '@adbs1/trapnz-redux-offline/lib/types' {
   export interface ResultAction {
     meta: {
       completed: boolean;
       success: boolean;
+      transaction: number;
     };
     payload?: object;
     type: string;
@@ -113,7 +114,7 @@ declare module '@redux-offline/redux-offline/lib/types' {
   }
 }
 
-declare module '@redux-offline/redux-offline/lib/constants' {
+declare module '@adbs1/trapnz-redux-offline/lib/constants' {
   export const DEFAULT_ROLLBACK: string;
   export const DEFAULT_COMMIT: string;
   export const JS_ERROR: string;
@@ -126,10 +127,10 @@ declare module '@redux-offline/redux-offline/lib/constants' {
   export const OFFLINE_STATUS_CHANGED: string;
 }
 
-declare module '@redux-offline/redux-offline' {
+declare module '@adbs1/trapnz-redux-offline' {
   import { createStore as createReduxStore, Store, StoreEnhancer, Dispatch, Middleware } from 'redux';
 
-  import { Config } from '@redux-offline/redux-offline/lib/types';
+  import { Config } from '@adbs1/trapnz-redux-offline/lib/types';
 
   export const offline: (userConfig: Partial<Config>) => (createStore: typeof createReduxStore) =>
     <T extends { [key: string]: any }>(

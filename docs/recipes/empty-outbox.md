@@ -5,6 +5,6 @@ If you want to drop any unresolved offline actions (for instance when a user log
 Dispatch a reset state event as follows:
 
 ```js
-import { RESET_STATE } from "@redux-offline/redux-offline/lib/constants";
+import { RESET_STATE } from "@adbs1/trapnz-redux-offline/lib/constants";
 store.dispatch({ type: RESET_STATE });
 ```

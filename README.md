@@ -23,25 +23,25 @@ Persistent Redux store for _Reasonaboutable_:tm: Offline-First applications, wit
 
 ##### For React Native 0.60+
 ```shell
-npm install --save @redux-offline/redux-offline@native
+npm install --save @adbs1/trapnz-redux-offline@native
 ```
 
 #### For React Native Expo SDK 36
 ```shell
-npm install --save @redux-offline/redux-offline@expo
+npm install --save @adbs1/trapnz-redux-offline@expo
 ```
 
 #### For React Native <= 0.59
 ```shell
-npm install --save @redux-offline/redux-offline
+npm install --save @adbs1/trapnz-redux-offline
 ```
 
 ##### 2. Add the `offline` [store enhancer](http://redux.js.org/docs/Glossary.html#store-enhancer) with `compose`
 ```js
 
 import { applyMiddleware, createStore, compose } from 'redux';
-import { offline } from '@redux-offline/redux-offline';
-import offlineConfig from '@redux-offline/redux-offline/lib/defaults';
+import { offline } from '@adbs1/trapnz-redux-offline';
+import offlineConfig from '@adbs1/trapnz-redux-offline/lib/defaults';
 
 // ...
 

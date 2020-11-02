@@ -16,8 +16,8 @@ In the past how to configure your Redux store so that Redux-Saga could listen to
 
 ```js
 import { createStore, compose, combineReducers, applyMiddleware } from 'redux';
-import { createOffline } from '@redux-offline/redux-offline';
-import offlineConfig from '@redux-offline/redux-offline/lib/defaults';
+import { createOffline } from '@adbs1/trapnz-redux-offline';
+import offlineConfig from '@adbs1/trapnz-redux-offline/lib/defaults';
 import * as reducers from './reducers';
 import { helloSaga } from './sagas';
 
