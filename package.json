@@ -1,6 +1,6 @@
 {
   "name": "@adbs1/trapnz-redux-offline",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Redux Offline-First Architecture",
   "main": "lib/index.js",
   "types": "./typings.d.ts",
