@@ -35,6 +35,9 @@ npm install --save @adbs1/trapnz-redux-offline@expo
 ```shell
 npm install --save @adbs1/trapnz-redux-offline
 ```
+#### External dependencies for React Native
+* Async Storage [@react-native-async-storage/async-storage](https://github.com/react-native-async-storage/async-storage)
+* NetInfo [react-native-netinfo/react-native-netinfo](https://github.com/react-native-netinfo/react-native-netinfo)
 
 ##### 2. Add the `offline` [store enhancer](http://redux.js.org/docs/Glossary.html#store-enhancer) with `compose`
 ```js
